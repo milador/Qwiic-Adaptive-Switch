@@ -1,1 +1,1 @@
-# Qwiic_Adaptive_Switch
+# Qwiic-Adaptive-Switch
