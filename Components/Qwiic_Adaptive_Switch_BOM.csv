@@ -1,6 +1,6 @@
 ﻿Index,Quantity,Item,Digikey Part Number,Manufacturer Part Number,Description,Unit Price (C),Total Price (CA),Link
 1,2,"SW1,SW2",CP1-3513-ND,SJ1-3513,CONN JACK STEREO 3.5MM R/A,1.97,1.97,https://www.digikey.ca/en/products/detail/cui-devices/SJ1-3513/738683
-2,1,U1,296-40574-2-ND,TCA9534PWR,IC I/O EXPANDER I2C 8B 16TSSOP,1.75,1.75,https://www.digikey.ca/en/products/detail/yageo/CFR-25JB-52-10K/338
+2,1,U1,296-40574-2-ND,TCA9534PWR,IC I/O EXPANDER I2C 8B 16TSSOP,1.75,1.75,https://www.digikey.ca/en/products/detail/texas-instruments/TCA9534PWR/5004966
 3,2,"J2,J3",PRT-14417-ND,PRT-14417,QWIIC JST CONNECTOR - SMD 4-PIN,0.69,0.69,https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746
 4,5,"R1,R2,R3,R4,R5",311-2.20KHRTR-ND,RC0603FR-072K2L,RES SMD 2.2K OHM 1% 1/10W 0603,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0603FR-072K2L/727016
 5,1,R6,311-10KDTR-ND,RT0603DRD0710KL,RES SMD 10K OHM 0.5% 1/10W 0603,0.25,0.25,https://www.digikey.ca/en/products/detail/yageo/RT0603DRD0710KL/1035416
