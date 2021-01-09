@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-01-07T04:08:51Z",
+        "CreationDate": "2021-01-08T22:38:24Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -13,7 +13,7 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "Qwiic_Adaptive_Switch"
+            "ProjectId": "Qwiic_Adaptive_Switch_Single"
         },
         "Owner": "Milad H <mha29@sfu.ca>",
         "Size": {
