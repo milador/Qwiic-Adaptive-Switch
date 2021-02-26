@@ -30,6 +30,12 @@ Top View:
 </p>
 
 
+
+Bottom View:
+<p align="center">
+<img align="center" src="https://raw.githubusercontent.com/milador/Qwiic-Adaptive-Switch/main/Resources/Qwiic_Adaptive_Switch_Bottom.png" width="50%" height="50%" alt="Qwiic Adaptive Switch Bottom"/>
+</p>
+
 ## License 
 
 ### MIT License
@@ -46,9 +52,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <img align="center" src="https://raw.githubusercontent.com/milador/milador/master/Assets/IMG/mit_license_icon.png" width="50%" height="50%" alt="MIT License"/>
 </p>
 
-
-
-Bottom View:
-<p align="center">
-<img align="center" src="https://raw.githubusercontent.com/milador/Qwiic-Adaptive-Switch/main/Resources/Qwiic_Adaptive_Switch_Bottom.png" width="50%" height="50%" alt="Qwiic Adaptive Switch Bottom"/>
-</p>
