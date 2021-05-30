@@ -1,13 +1,14 @@
-﻿Index,Quantity,Item,Digikey Part Number,Manufacturer Part Number,Description,Unit Price (C),Total Price (CA),Link
-1,2,"SW1,SW2",CP1-3513-ND,SJ1-3513,CONN JACK STEREO 3.5MM R/A,1.97,1.97,https://www.digikey.ca/en/products/detail/cui-devices/SJ1-3513/738683
-2,1,U1,296-47827-1-ND,TCA9534DWR,IC I/O EXPANDER I2C 8B 16-SOIC,1.82,1.82,https://www.digikey.ca/en/products/detail/texas-instruments/TCA9534DWR/6566100
-3,2,"J2,J3",PRT-14417-ND,PRT-14417,QWIIC JST CONNECTOR - SMD 4-PIN,0.69,0.69,https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746
-4,5,"R1,R2,R3,R4,R5",311-2.20KHRTR-ND,RC0603FR-072K2L,RES SMD 2.2K OHM 1% 1/10W 0603,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0603FR-072K2L/727016
-5,1,R6,311-10KDTR-ND,RT0603DRD0710KL,RES SMD 10K OHM 0.5% 1/10W 0603,0.25,0.25,https://www.digikey.ca/en/products/detail/yageo/RT0603DRD0710KL/1035416
-6,1,R7,YAG1237TR-ND,RT0603BRD071KL,RES SMD 1K OHM 0.1% 1/10W 0603,0.47,0.47,https://www.digikey.ca/en/products/detail/yageo/RT0603BRD071KL/1072344
-7,1,C,587-1245-2-ND,TMK107BJ104KA-T,CAP CER 0.1UF 25V X5R 0603,0.14,0.14,https://www.digikey.ca/en/products/detail/taiyo-yuden/TMK107BJ104KA-T/930597
-8,1,LED,160-1436-2-ND,LTST-C190KRKT,LED RED CLEAR CHIP SMD,0.33,0.33,https://www.digikey.ca/en/products/detail/lite-on-inc/LTST-C190KRKT/386817
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,Total Price:,9.08,
+﻿Index,Quantity,Item,Value,Digikey Part Number,Manufacturer Part Number,Description,Unit Price (C),Total Price (CA),Link
+1,2,"SW1,SW2",SJ1-3513,CP1-3513-ND,SJ1-3513,CONN JACK STEREO 3.5MM R/A,1.97,1.97,https://www.digikey.ca/en/products/detail/cui-devices/SJ1-3513/738683
+2,1,U1,TCA9534DWR,296-47827-1-ND,TCA9534DWR,IC I/O EXPANDER I2C 8B 16-SOIC,1.82,1.82,https://www.digikey.ca/en/products/detail/texas-instruments/TCA9534DWR/6566100
+3,2,"J2,J3","	
+QWIIC JST",PRT-14417-ND,PRT-14417,QWIIC JST CONNECTOR - SMD 4-PIN,0.69,0.69,https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746
+4,5,"R1,R2,R7,R8,R9",2.2K,311-2.20KHRTR-ND,RC0603FR-072K2L,RES SMD 2.2K OHM 1% 1/10W 0603,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0603FR-072K2L/727016
+5,3,"R3,R5,R6",10K,311-10KDTR-ND,RT0603DRD0710KL,RES SMD 10K OHM 0.5% 1/10W 0603,0.25,0.25,https://www.digikey.ca/en/products/detail/yageo/RT0603DRD0710KL/1035416
+6,1,R4,1K,YAG1237TR-ND,RT0603BRD071KL,RES SMD 1K OHM 0.1% 1/10W 0603,0.47,0.47,https://www.digikey.ca/en/products/detail/yageo/RT0603BRD071KL/1072344
+7,1,C1,0.1 µF,587-1245-2-ND,TMK107BJ104KA-T,CAP CER 0.1UF 25V X5R 0603,0.14,0.14,https://www.digikey.ca/en/products/detail/taiyo-yuden/TMK107BJ104KA-T/930597
+8,1,LED (D1),Red 631nm LED ,160-1436-2-ND,LTST-C190KRKT,LED RED CLEAR CHIP SMD,0.33,0.33,https://www.digikey.ca/en/products/detail/lite-on-inc/LTST-C190KRKT/386817
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,Total Price:,9.58,
