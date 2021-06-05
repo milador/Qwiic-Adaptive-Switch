@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.5" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -197,6 +197,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYWQxOTI2" projecturn="a.cGVyc29uYWw6dWUyYWQxOTI2IzIwMjEwMTA3MzY5MTI4NTU2" f3durn="urn:adsk.wipprod:dm.lineage:iqi4HTDMROu8o-H5T5Jb5A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="083c6886-957b-4a1f-a4c9-710898d37edb" lastsyncedrevisionid="083c6886-957b-4a1f-a4c9-710898d37edb" lastboardhashguid="66578006-9f20-48b5-7580-e67f18d5f324" lastpushedtime="2021-06-05T03:26:52Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="0" y2="25.4" width="0.2032" layer="52"/>
 <wire x1="2.54" y1="38.1" x2="40.64" y2="38.1" width="0.2032" layer="20"/>
@@ -1504,128 +1505,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </package>
 </packages>
 </library>
-<library name="SparkFun-Resistors">
-<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
-This library contains resistors. Reference designator:R. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Jumpers">
-<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
-In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39258/1" locally_modified="yes">
-<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="0.5588" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.762" y1="-1.016" x2="1.2192" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.2192" y1="-0.5588" x2="1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
-<smd name="1" x="-0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1905" y="0.127"/>
-<vertex x="0.1905" y="0.127"/>
-<vertex x="0.1905" y="-0.127"/>
-<vertex x="-0.1905" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="-0.6985" y="0.127"/>
-<vertex x="0.18415" y="0.127"/>
-<vertex x="0.18415" y="-0.127"/>
-<vertex x="-0.6985" y="-0.127"/>
-</polygon>
-</package>
-<package name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39270/1" locally_modified="yes">
-<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.2032" layer="21"/>
-<smd name="1" x="-1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<smd name="3" x="1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="0.3175" y="0.127"/>
-<vertex x="0.6985" y="0.127"/>
-<vertex x="0.6985" y="-0.127"/>
-<vertex x="0.3175" y="-0.127"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-0.6985" y="0.127"/>
-<vertex x="-0.3175" y="0.127"/>
-<vertex x="-0.3175" y="-0.127"/>
-<vertex x="-0.6985" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="-0.70485" y="0.127"/>
-<vertex x="0.70485" y="0.127"/>
-<vertex x="0.70485" y="-0.127"/>
-<vertex x="-0.70485" y="-0.127"/>
-</polygon>
-</package>
-</packages>
-<packages3d>
-<package3d name="SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:package:39289/1" locally_modified="yes" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_3_2-NC_TRACE_SILK"/>
-</packageinstances>
-</package3d>
-<package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
-<packageinstances>
-<packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
 This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
@@ -1641,203 +1520,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="OSHW-LOGO-MINI">
-<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Mini - Silkscreen&lt;/h3&gt;
-&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.076" layer="21">
-<vertex x="1.2366" y="-0.17263125"/>
-<vertex x="1.2366" y="0.14736875"/>
-<vertex x="0.8766" y="0.20736875"/>
-<vertex x="0.8766" y="0.24736875"/>
-<vertex x="0.8666" y="0.25736875"/>
-<vertex x="0.8666" y="0.27736875"/>
-<vertex x="0.8566" y="0.28736875"/>
-<vertex x="0.8466" y="0.30736875"/>
-<vertex x="0.8466" y="0.32736875"/>
-<vertex x="0.8366" y="0.33736875"/>
-<vertex x="0.8366" y="0.35736875"/>
-<vertex x="0.8266" y="0.36736875"/>
-<vertex x="0.8166" y="0.38736875"/>
-<vertex x="0.8066" y="0.39736875"/>
-<vertex x="0.8066" y="0.41736875"/>
-<vertex x="0.7966" y="0.42736875"/>
-<vertex x="0.7866" y="0.44736875"/>
-<vertex x="0.7766" y="0.45736875"/>
-<vertex x="0.9866" y="0.74736875"/>
-<vertex x="0.7566" y="0.96736875"/>
-<vertex x="0.4666" y="0.76736875"/>
-<vertex x="0.4566" y="0.77736875"/>
-<vertex x="0.4366" y="0.78736875"/>
-<vertex x="0.4266" y="0.78736875"/>
-<vertex x="0.4066" y="0.79736875"/>
-<vertex x="0.3966" y="0.80736875"/>
-<vertex x="0.3766" y="0.81736875"/>
-<vertex x="0.3666" y="0.81736875"/>
-<vertex x="0.3466" y="0.82736875"/>
-<vertex x="0.3366" y="0.83736875"/>
-<vertex x="0.3166" y="0.83736875"/>
-<vertex x="0.2966" y="0.84736875"/>
-<vertex x="0.2866" y="0.84736875"/>
-<vertex x="0.2666" y="0.85736875"/>
-<vertex x="0.2566" y="0.85736875"/>
-<vertex x="0.2366" y="0.86736875"/>
-<vertex x="0.2166" y="0.86736875"/>
-<vertex x="0.1566" y="1.21736875"/>
-<vertex x="-0.1634" y="1.21736875"/>
-<vertex x="-0.2234" y="0.86736875"/>
-<vertex x="-0.2334" y="0.86736875"/>
-<vertex x="-0.2534" y="0.85736875"/>
-<vertex x="-0.2734" y="0.85736875"/>
-<vertex x="-0.2834" y="0.84736875"/>
-<vertex x="-0.3034" y="0.84736875"/>
-<vertex x="-0.3234" y="0.83736875"/>
-<vertex x="-0.3334" y="0.83736875"/>
-<vertex x="-0.3534" y="0.82736875"/>
-<vertex x="-0.3634" y="0.81736875"/>
-<vertex x="-0.3834" y="0.81736875"/>
-<vertex x="-0.3934" y="0.80736875"/>
-<vertex x="-0.4134" y="0.79736875"/>
-<vertex x="-0.4234" y="0.78736875"/>
-<vertex x="-0.4434" y="0.78736875"/>
-<vertex x="-0.4534" y="0.77736875"/>
-<vertex x="-0.4734" y="0.76736875"/>
-<vertex x="-0.7634" y="0.96736875"/>
-<vertex x="-0.9834" y="0.74736875"/>
-<vertex x="-0.7834" y="0.45736875"/>
-<vertex x="-0.7934" y="0.44736875"/>
-<vertex x="-0.7934" y="0.42736875"/>
-<vertex x="-0.8034" y="0.41736875"/>
-<vertex x="-0.8134" y="0.39736875"/>
-<vertex x="-0.8234" y="0.38736875"/>
-<vertex x="-0.8234" y="0.36736875"/>
-<vertex x="-0.8334" y="0.35736875"/>
-<vertex x="-0.8434" y="0.33736875"/>
-<vertex x="-0.8434" y="0.32736875"/>
-<vertex x="-0.8634" y="0.28736875"/>
-<vertex x="-0.8634" y="0.27736875"/>
-<vertex x="-0.8734" y="0.25736875"/>
-<vertex x="-0.8734" y="0.24736875"/>
-<vertex x="-0.8834" y="0.22736875"/>
-<vertex x="-0.8834" y="0.20736875"/>
-<vertex x="-1.2334" y="0.14736875"/>
-<vertex x="-1.2334" y="-0.17263125"/>
-<vertex x="-0.8834" y="-0.23263125"/>
-<vertex x="-0.8834" y="-0.24263125"/>
-<vertex x="-0.8734" y="-0.26263125"/>
-<vertex x="-0.8734" y="-0.28263125"/>
-<vertex x="-0.8634" y="-0.29263125"/>
-<vertex x="-0.8634" y="-0.31263125"/>
-<vertex x="-0.8534" y="-0.32263125"/>
-<vertex x="-0.8434" y="-0.34263125"/>
-<vertex x="-0.8434" y="-0.36263125"/>
-<vertex x="-0.8334" y="-0.37263125"/>
-<vertex x="-0.8334" y="-0.39263125"/>
-<vertex x="-0.8234" y="-0.40263125"/>
-<vertex x="-0.8134" y="-0.42263125"/>
-<vertex x="-0.8034" y="-0.43263125"/>
-<vertex x="-0.7934" y="-0.45263125"/>
-<vertex x="-0.7934" y="-0.46263125"/>
-<vertex x="-0.7834" y="-0.48263125"/>
-<vertex x="-0.9834" y="-0.76263125"/>
-<vertex x="-0.7634" y="-0.99263125"/>
-<vertex x="-0.4734" y="-0.79263125"/>
-<vertex x="-0.4634" y="-0.79263125"/>
-<vertex x="-0.4534" y="-0.80263125"/>
-<vertex x="-0.4434" y="-0.80263125"/>
-<vertex x="-0.4334" y="-0.81263125"/>
-<vertex x="-0.4234" y="-0.81263125"/>
-<vertex x="-0.4134" y="-0.82263125"/>
-<vertex x="-0.4034" y="-0.82263125"/>
-<vertex x="-0.3934" y="-0.83263125"/>
-<vertex x="-0.3834" y="-0.83263125"/>
-<vertex x="-0.3734" y="-0.84263125"/>
-<vertex x="-0.3634" y="-0.84263125"/>
-<vertex x="-0.3534" y="-0.85263125"/>
-<vertex x="-0.3334" y="-0.85263125"/>
-<vertex x="-0.3234" y="-0.86263125"/>
-<vertex x="-0.1234" y="-0.32263125"/>
-<vertex x="-0.1534" y="-0.31263125"/>
-<vertex x="-0.1934" y="-0.29263125"/>
-<vertex x="-0.2134" y="-0.27263125"/>
-<vertex x="-0.2334" y="-0.26263125"/>
-<vertex x="-0.2534" y="-0.24263125"/>
-<vertex x="-0.2634" y="-0.22263125"/>
-<vertex x="-0.2834" y="-0.20263125"/>
-<vertex x="-0.3034" y="-0.16263125"/>
-<vertex x="-0.3134" y="-0.13263125"/>
-<vertex x="-0.3334" y="-0.09263125"/>
-<vertex x="-0.3334" y="-0.06263125"/>
-<vertex x="-0.3434" y="-0.03263125"/>
-<vertex x="-0.3434" y="0.02736875"/>
-<vertex x="-0.3034" y="0.14736875"/>
-<vertex x="-0.2634" y="0.20736875"/>
-<vertex x="-0.2434" y="0.22736875"/>
-<vertex x="-0.2134" y="0.24736875"/>
-<vertex x="-0.1934" y="0.26736875"/>
-<vertex x="-0.1634" y="0.28736875"/>
-<vertex x="-0.1334" y="0.29736875"/>
-<vertex x="-0.1034" y="0.31736875"/>
-<vertex x="-0.0734" y="0.31736875"/>
-<vertex x="-0.0334" y="0.32736875"/>
-<vertex x="0.0366" y="0.32736875"/>
-<vertex x="0.0666" y="0.31736875"/>
-<vertex x="0.0966" y="0.31736875"/>
-<vertex x="0.1266" y="0.29736875"/>
-<vertex x="0.1566" y="0.28736875"/>
-<vertex x="0.2166" y="0.24736875"/>
-<vertex x="0.2566" y="0.20736875"/>
-<vertex x="0.2966" y="0.14736875"/>
-<vertex x="0.3066" y="0.11736875"/>
-<vertex x="0.3266" y="0.08736875"/>
-<vertex x="0.3266" y="0.05736875"/>
-<vertex x="0.3366" y="0.02736875"/>
-<vertex x="0.3366" y="-0.06263125"/>
-<vertex x="0.3266" y="-0.09263125"/>
-<vertex x="0.3266" y="-0.11263125"/>
-<vertex x="0.3166" y="-0.13263125"/>
-<vertex x="0.3066" y="-0.16263125"/>
-<vertex x="0.2966" y="-0.18263125"/>
-<vertex x="0.2766" y="-0.20263125"/>
-<vertex x="0.2666" y="-0.22263125"/>
-<vertex x="0.2266" y="-0.26263125"/>
-<vertex x="0.2066" y="-0.27263125"/>
-<vertex x="0.1866" y="-0.29263125"/>
-<vertex x="0.1266" y="-0.32263125"/>
-<vertex x="0.3266" y="-0.86263125"/>
-<vertex x="0.3266" y="-0.85263125"/>
-<vertex x="0.3466" y="-0.85263125"/>
-<vertex x="0.3566" y="-0.84263125"/>
-<vertex x="0.3666" y="-0.84263125"/>
-<vertex x="0.3766" y="-0.83263125"/>
-<vertex x="0.3866" y="-0.83263125"/>
-<vertex x="0.3966" y="-0.82263125"/>
-<vertex x="0.4166" y="-0.82263125"/>
-<vertex x="0.4266" y="-0.81263125"/>
-<vertex x="0.4366" y="-0.81263125"/>
-<vertex x="0.4566" y="-0.79263125"/>
-<vertex x="0.4666" y="-0.79263125"/>
-<vertex x="0.7566" y="-0.99263125"/>
-<vertex x="0.9866" y="-0.76263125"/>
-<vertex x="0.7766" y="-0.48263125"/>
-<vertex x="0.7866" y="-0.46263125"/>
-<vertex x="0.7966" y="-0.45263125"/>
-<vertex x="0.8066" y="-0.43263125"/>
-<vertex x="0.8066" y="-0.42263125"/>
-<vertex x="0.8166" y="-0.40263125"/>
-<vertex x="0.8266" y="-0.39263125"/>
-<vertex x="0.8366" y="-0.37263125"/>
-<vertex x="0.8366" y="-0.36263125"/>
-<vertex x="0.8566" y="-0.32263125"/>
-<vertex x="0.8566" y="-0.31263125"/>
-<vertex x="0.8666" y="-0.29263125"/>
-<vertex x="0.8666" y="-0.28263125"/>
-<vertex x="0.8766" y="-0.26263125"/>
-<vertex x="0.8766" y="-0.24263125"/>
-<vertex x="0.8866" y="-0.23263125"/>
-</polygon>
-</package>
 <package name="QWIIC_6MM">
 <polygon width="0.0127" layer="21">
 <vertex x="-1.766" y="-0.417"/>
@@ -2209,115 +1891,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.278" y="0.557"/>
 <vertex x="-0.163" y="0.557"/>
 </polygon>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Capacitors">
-<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
-This library contains capacitors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="1X01_NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-1.27" y="1.143" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-<package name="1X04_NO_SILK">
-<description>&lt;h3&gt;Plated Through Hole - 4 Pin No Silk Outline&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="JST04_1MM_RA">
-<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.2032" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.2032" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.2032" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1016" width="0.2032" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -3540,89 +3113,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.36" y1="-0.74" x2="3.52" y2="-0.7" layer="21"/>
 <rectangle x1="0.32" y1="-0.78" x2="3.52" y2="-0.74" layer="21"/>
 <rectangle x1="0.28" y1="-0.82" x2="3.52" y2="-0.78" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-0603">
-<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
-0603, surface mount.
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
-&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
-<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
-<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
-</package>
-</packages>
-</library>
-<library name="SparkFun-IC-Conversion">
-<description>&lt;h3&gt;SparkFun Conversion ICs&lt;/h3&gt;
-This library is for ICs that perform analog to digital conversion, as well as digital to analog.  This includes not only strict ADCs, but audio in and out converters, decoders, thermocouple measurement ics the like.  Anything that is a single part that works between the two domains goes here.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="16SOIC">
-<circle x="-4.445" y="5.715" radius="0.254" width="0.2032" layer="21"/>
-<wire x1="3.75" y1="5.25" x2="-3.75" y2="5.25" width="0.2032" layer="51"/>
-<wire x1="-3.75" y1="5.25" x2="-3.75" y2="-5.25" width="0.2032" layer="51"/>
-<wire x1="-3.75" y1="-5.25" x2="3.75" y2="-5.25" width="0.2032" layer="51"/>
-<wire x1="3.75" y1="-5.25" x2="3.75" y2="5.25" width="0.2032" layer="51"/>
-<wire x1="3.75" y1="5.25" x2="-3.75" y2="5.25" width="0.2032" layer="21"/>
-<wire x1="-3.75" y1="5.25" x2="-3.75" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="-3.75" y1="-5.25" x2="3.75" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="3.75" y1="-5.25" x2="3.75" y2="5.25" width="0.2032" layer="21"/>
-<smd name="1" x="-4.65" y="4.445" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="2" x="-4.65" y="3.175" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="3" x="-4.65" y="1.905" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="4" x="-4.65" y="0.635" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="5" x="-4.65" y="-0.635" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="6" x="-4.65" y="-1.905" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="7" x="-4.65" y="-3.175" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="8" x="-4.65" y="-4.445" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="9" x="4.65" y="-4.445" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="10" x="4.65" y="-3.175" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="11" x="4.65" y="-1.905" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="12" x="4.65" y="-0.635" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="13" x="4.65" y="0.635" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="14" x="4.65" y="1.905" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="15" x="4.65" y="3.175" dx="1.397" dy="0.6477" layer="1"/>
-<smd name="16" x="4.65" y="4.445" dx="1.397" dy="0.6477" layer="1"/>
-<text x="-3.81" y="5.715" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
-<text x="-3.81" y="-6.35" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
 </package>
 </packages>
 </library>
@@ -6430,6 +5920,40 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-3.39725" y1="1.55575" x2="3.39725" y2="1.61925" layer="21"/>
 <rectangle x1="-3.27025" y1="1.61925" x2="3.27025" y2="1.68275" layer="21"/>
 </package>
+<package name="CONNECTORS_1X01_NO_SILK" urn="urn:adsk.eagle:footprint:29222246/1" library_version="51">
+<description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.27" y="1.143" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="CONNECTORS_1X04_NO_SILK" urn="urn:adsk.eagle:footprint:29222247/1" library_version="51">
+<description>&lt;h3&gt;Plated Through Hole - 4 Pin No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="MILADOR_LOGO1" urn="urn:adsk.eagle:package:28431737/1" type="empty" library_version="47">
@@ -6450,6 +5974,238 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="SWITCH-SW2" urn="urn:adsk.eagle:package:29091878/1" type="empty" library_version="49">
 <packageinstances>
 <packageinstance name="SWITCH-SW2"/>
+</packageinstances>
+</package3d>
+<package3d name="CONNECTORS_1X01_NO_SILK" urn="urn:adsk.eagle:package:29222250/2" type="model" library_version="51">
+<description>&lt;h3&gt;Plated Through Hole - No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CONNECTORS_1X01_NO_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="CONNECTORS_1X04_NO_SILK" urn="urn:adsk.eagle:package:29222251/2" type="model" library_version="51">
+<description>&lt;h3&gt;Plated Through Hole - 4 Pin No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CONNECTORS_1X04_NO_SILK"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="milador_SMD" urn="urn:adsk.eagle:library:27847482">
+<description>Generated from &lt;b&gt;myQT_nRF52840_Board.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="0603" urn="urn:adsk.eagle:footprint:37386/1" library_version="26">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="LED-0603" urn="urn:adsk.eagle:footprint:39307/1" library_version="26">
+<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
+0603, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
+&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
+<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.127" layer="21"/>
+<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
+</package>
+<package name="CONNECTORS_JST04_1MM_RA" urn="urn:adsk.eagle:footprint:29222205/1" library_version="29">
+<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="-2.5" y="0.3" radius="0.1016" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.2032" layer="21"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="16SOIC" urn="urn:adsk.eagle:footprint:29222123/1" library_version="29">
+<circle x="-4.445" y="5.715" radius="0.254" width="0.2032" layer="21"/>
+<wire x1="3.75" y1="5.25" x2="-3.75" y2="5.25" width="0.2032" layer="51"/>
+<wire x1="-3.75" y1="5.25" x2="-3.75" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="-3.75" y1="-5.25" x2="3.75" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="3.75" y1="-5.25" x2="3.75" y2="5.25" width="0.2032" layer="51"/>
+<wire x1="3.75" y1="5.25" x2="-3.75" y2="5.25" width="0.2032" layer="21"/>
+<wire x1="-3.75" y1="5.25" x2="-3.75" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="-3.75" y1="-5.25" x2="3.75" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="3.75" y1="-5.25" x2="3.75" y2="5.25" width="0.2032" layer="21"/>
+<smd name="1" x="-4.65" y="4.445" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="2" x="-4.65" y="3.175" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="3" x="-4.65" y="1.905" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="4" x="-4.65" y="0.635" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="5" x="-4.65" y="-0.635" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="6" x="-4.65" y="-1.905" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="7" x="-4.65" y="-3.175" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="8" x="-4.65" y="-4.445" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="9" x="4.65" y="-4.445" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="10" x="4.65" y="-3.175" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="11" x="4.65" y="-1.905" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="12" x="4.65" y="-0.635" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="13" x="4.65" y="0.635" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="14" x="4.65" y="1.905" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="15" x="4.65" y="3.175" dx="1.397" dy="0.6477" layer="1"/>
+<smd name="16" x="4.65" y="4.445" dx="1.397" dy="0.6477" layer="1"/>
+<text x="-3.81" y="5.715" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-3.81" y="-6.35" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
+</package>
+<package name="JUMPERS_SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:29222208/1" library_version="29">
+<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.2192" y1="0.5588" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.2192" y1="-0.5588" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.762" y1="-1.016" x2="1.2192" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.2192" y1="-0.5588" x2="1.2192" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.2192" y1="-0.5588" x2="-1.2192" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
+<smd name="1" x="-0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.1905" y="0.127"/>
+<vertex x="0.1905" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.6985" y="0.127"/>
+<vertex x="0.18415" y="0.127"/>
+<vertex x="0.18415" y="-0.127"/>
+<vertex x="-0.6985" y="-0.127"/>
+</polygon>
+</package>
+<package name="JUMPERS_SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:29222210/1" library_version="29">
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.2032" layer="21"/>
+<smd name="1" x="-1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="0.3175" y="0.127"/>
+<vertex x="0.6985" y="0.127"/>
+<vertex x="0.6985" y="-0.127"/>
+<vertex x="0.3175" y="-0.127"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.6985" y="0.127"/>
+<vertex x="-0.3175" y="0.127"/>
+<vertex x="-0.3175" y="-0.127"/>
+<vertex x="-0.6985" y="-0.127"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.70485" y="0.127"/>
+<vertex x="0.70485" y="0.127"/>
+<vertex x="0.70485" y="-0.127"/>
+<vertex x="-0.70485" y="-0.127"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:29222124/2" type="model" library_version="29">
+<description>Generic 1608 (0603) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+<package3d name="LED-0603" urn="urn:adsk.eagle:package:29222125/2" type="model" library_version="29">
+<description>LED 0603 SMT
+0603, surface mount.
+Specifications:
+Pin count: 2
+Pin pitch:0.075inch 
+Area: 0.06" x 0.03"
+
+Example device(s):
+LED - BLUE</description>
+<packageinstances>
+<packageinstance name="LED-0603"/>
+</packageinstances>
+</package3d>
+<package3d name="CONNECTORS_JST04_1MM_RA" urn="urn:adsk.eagle:package:29222212/3" type="model" library_version="29">
+<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CONNECTORS_JST04_1MM_RA"/>
+</packageinstances>
+</package3d>
+<package3d name="16SOIC" urn="urn:adsk.eagle:package:29222127/2" type="model" library_version="29">
+<packageinstances>
+<packageinstance name="16SOIC"/>
+</packageinstances>
+</package3d>
+<package3d name="JUMPERS_SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:29222215/1" type="box" library_version="29">
+<packageinstances>
+<packageinstance name="JUMPERS_SMT-JUMPER_2_NC_TRACE_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="JUMPERS_SMT-JUMPER_3_2-NC_TRACE_SILK" urn="urn:adsk.eagle:package:29222217/1" type="box" library_version="29">
+<packageinstances>
+<packageinstance name="JUMPERS_SMT-JUMPER_3_2-NC_TRACE_SILK"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6648,53 +6404,43 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <elements>
 <element name="JP3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="3.175" y="3.175" smashed="yes"/>
 <element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="40.005" y="3.175" smashed="yes"/>
-<element name="J1" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="5.08" y="17.78" smashed="yes" rot="R270">
+<element name="J1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="CONNECTORS_JST04_1MM_RA" package3d_urn="urn:adsk.eagle:package:29222212/3" value="QWIIC_RIGHT_ANGLE" x="5.08" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="1.7526" y="18.669" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="QWIIC_RIGHT_ANGLE" x="1.778" y="19.431" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="8.89" y="6.858" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.6708" y="7.1374" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00810" x="8.89" y="6.858" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="9.652" y="6.858" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="C1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="0.1uF" x="8.89" y="6.858" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.541" y="6.858" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="7.366" y="7.112" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="38.1" y="19.05" smashed="yes" rot="R90">
+<element name="J4" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="CONNECTORS_JST04_1MM_RA" package3d_urn="urn:adsk.eagle:package:29222212/3" value="QWIIC_RIGHT_ANGLE" x="38.1" y="19.05" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.32071875" y="18.796" size="0.8128" layer="21" font="vector" ratio="15" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-13694" x="38.1" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="QWIIC_RIGHT_ANGLE" x="41.402" y="17.399" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="7.493" y="2.7432" smashed="yes" rot="MR0"/>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="2.2k" x="4.572" y="24.13" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.1468" y="24.2062" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="0.762" y="24.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="5.334" y="24.13" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="R2" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k" x="4.572" y="24.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.223" y="24.13" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="3.302" y="24.13" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="2.2k" x="1.8796" y="24.13" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.5052" y="24.2824" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="-1.9304" y="24.13" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="2.6416" y="24.13" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="R1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k" x="1.8796" y="24.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.5306" y="24.13" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="0.6096" y="24.13" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="U1" library="SparkFun-IC-Conversion" package="16SOIC" value="TCA9534" x="16.764" y="10.16" smashed="yes" rot="R180">
+<element name="U1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="16SOIC" package3d_urn="urn:adsk.eagle:package:29222127/2" value="TCA9534" x="16.764" y="10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.499078125" y="11.83131875" size="1.27" layer="21" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="IC-14889" x="16.764" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="TCA9534" x="18.33118125" y="7.795259375" size="0.8128" layer="21" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="R7" library="SparkFun-Resistors" package="0603" value="2.2k" x="27.94" y="11.684" smashed="yes" rot="R180">
+<element name="R7" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k" x="27.94" y="11.684" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.0416" y="10.7442" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="27.94" y="11.684" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="27.94" y="12.446" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R8" library="SparkFun-Resistors" package="0603" value="2.2k" x="27.94" y="8.636" smashed="yes" rot="R180">
+<element name="R8" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k" x="27.94" y="8.636" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.067" y="7.6962" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="27.94" y="8.636" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="27.94" y="9.398" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R9" library="SparkFun-Resistors" package="0603" value="2.2k" x="27.94" y="5.588" smashed="yes" rot="R180">
+<element name="R9" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k" x="27.94" y="5.588" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.067" y="4.6482" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="27.94" y="5.588" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="27.94" y="6.35" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="I2C" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="JUMPER-SMT_3_2-NC_TRACE_SILK" x="3.8862" y="28.702" smashed="yes" rot="MR0">
+<element name="I2C" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="JUMPERS_SMT-JUMPER_3_2-NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:29222217/1" value="JUMPERS_JUMPER-SMT_3_2-NC_TRACE_SILK" x="3.8862" y="28.702" smashed="yes" rot="MR0">
 <attribute name="NAME" x="3.5814" y="26.7716" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="3.8862" y="27.559" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
@@ -6711,50 +6457,47 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="40.005" y="32.893" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="H2" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="3.175" y="34.925" smashed="yes"/>
-<element name="R3" library="SparkFun-Resistors" package="0603" value="10k" x="6.11378125" y="12.4587" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.08838125" y="11.5443" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="6.11378125" y="12.4587" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="R3" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="10k" x="6.11378125" y="12.4587" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.11378125" y="11.5697" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="6.11378125" y="13.2207" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="U$13" library="buzzard_labels (52)" package="#INT0" value="" x="6.28141875" y="8.9281" smashed="yes" rot="MR0"/>
 <element name="U$22" library="buzzard_labels (54)" package="#INT0" value="" x="2.04978125" y="8.9281" smashed="yes"/>
-<element name="INT" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="3.698240625" y="12.458703125" smashed="yes" rot="MR180">
+<element name="INT" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="JUMPERS_SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:29222215/1" value="JUMPERS-SMT_2_NC_TRACE_SILK" x="3.698240625" y="12.458703125" smashed="yes" rot="MR180">
 <attribute name="NAME" x="3.647440625" y="11.036303125" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="16.398240625" y="23.761703125" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="ADR0" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="27.94" y="5.588" smashed="yes" rot="MR180">
+<element name="ADR0" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="JUMPERS_SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:29222215/1" value="JUMPERS-SMT_2_NC_TRACE_SILK" x="27.94" y="5.588" smashed="yes" rot="MR180">
 <attribute name="NAME" x="27.94" y="4.445" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="27.94" y="6.731" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="ADR1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="27.94" y="8.636" smashed="yes" rot="MR180">
+<element name="ADR1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="JUMPERS_SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:29222215/1" value="JUMPERS-SMT_2_NC_TRACE_SILK" x="27.94" y="8.636" smashed="yes" rot="MR180">
 <attribute name="NAME" x="27.94" y="7.493" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="27.94" y="9.779" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="PWR" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="9.146540625" y="25.527" smashed="yes" rot="MR0">
+<element name="PWR" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="JUMPERS_SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:29222215/1" value="JUMPERS-SMT_2_NC_TRACE_SILK" x="9.146540625" y="25.527" smashed="yes" rot="MR0">
 <attribute name="NAME" x="9.146540625" y="26.797" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="9.146540625" y="24.384" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0603" value="1k" x="12.7" y="22.098" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.7762" y="21.082" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07856" x="12.7" y="22.098" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="R4" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="1k" x="12.7" y="22.098" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.7" y="21.209" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.7" y="22.86" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="12.7" y="19.05" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.827" y="18.0848" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00819" x="12.7" y="19.05" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="D1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="LED-0603" package3d_urn="urn:adsk.eagle:package:29222125/2" value="RED" x="12.7" y="19.05" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.7" y="18.288" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="12.7" y="19.685" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="U$1" library="SparkFun-Buzzard" package="I2C" value="" x="5.7658" y="30.8864" smashed="yes" rot="MR0"/>
 <element name="U$34" library="output" package="PWR0" value="" x="6.408421875" y="22.430740625" smashed="yes"/>
 <element name="U$12" library="output" package="#INT#0" value="" x="9.3472" y="12.5222" smashed="yes" rot="MR0"/>
 <element name="U$39" library="output" package="#PWR#0" value="" x="15.1384" y="25.5016" smashed="yes" rot="MR0"/>
-<element name="J2" library="SparkFun-Connectors" package="1X01_NO_SILK" value="" x="1.27" y="8.89" smashed="yes" rot="R270">
+<element name="J2" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="CONNECTORS_1X01_NO_SILK" package3d_urn="urn:adsk.eagle:package:29222250/2" value="" x="1.27" y="8.89" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-0.508" y="10.16" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U$15" library="output" package="#ADR0#0" value="" x="34.036" y="5.588" smashed="yes" rot="MR0"/>
 <element name="U$5" library="output" package="#ADR1#0" value="" x="34.036" y="8.636" smashed="yes" rot="MR0"/>
 <element name="U$11" library="output" package="#ADR2#0" value="" x="34.036" y="11.684" smashed="yes" rot="MR0"/>
-<element name="J3" library="SparkFun-Connectors" package="1X04_NO_SILK" value="" x="41.91" y="24.13" smashed="yes" rot="R90">
+<element name="J3" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="CONNECTORS_1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:29222251/2" value="" x="41.91" y="24.13" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.497259375" y="27.264359375" size="0.6096" layer="21" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-09696" x="41.91" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.942" y="22.86" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
@@ -6767,24 +6510,22 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="12.7" y="33.02" size="1.27" layer="21" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="18.148359375" y="36.85506875" size="0.6096" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="J5" library="SparkFun-Connectors" package="1X04_NO_SILK" value="" x="41.91" y="6.35" smashed="yes" rot="R90">
+<element name="J5" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="CONNECTORS_1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:29222251/2" value="" x="41.91" y="6.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.907740625" y="7.7190625" size="0.6096" layer="21" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-09696" x="41.91" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.942" y="5.08" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="U$2" library="buzzard_labels (44)" package="GND4" value="" x="36.83" y="6.35" smashed="yes"/>
 <element name="U$4" library="buzzard_labels (44)" package="3V33" value="" x="41.3512" y="8.89" smashed="yes" rot="MR0"/>
-<element name="R5" library="SparkFun-Resistors" package="0603" value="10k" x="17.78" y="22.098" smashed="yes">
-<attribute name="NAME" x="17.8562" y="21.082" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="18.03908125" y="26.10611875" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="17.78" y="23.495" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="R5" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="10k" x="17.78" y="22.098" smashed="yes">
+<attribute name="NAME" x="17.78" y="21.209" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="17.907" y="23.495" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R6" library="SparkFun-Resistors" package="0603" value="10K" x="22.86" y="22.098" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.86" y="21.082" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="22.60091875" y="18.08988125" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R6" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="10K" x="22.86" y="22.098" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.86" y="21.209" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="22.86" y="22.86" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="ADR2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="27.94" y="11.684" smashed="yes" rot="MR180">
+<element name="ADR2" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="JUMPERS_SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:29222215/1" value="JUMPERS-SMT_2_NC_TRACE_SILK" x="27.94" y="11.684" smashed="yes" rot="MR180">
 <attribute name="NAME" x="27.94" y="10.541" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="27.94" y="12.827" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
@@ -6795,7 +6536,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$17" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="SWITCH-SW1" package3d_urn="urn:adsk.eagle:package:29091877/1" value="MILADOR-SWITCH-NAME-SW1" x="13.9065" y="32.9438" smashed="yes" rot="MR0"/>
 <element name="U$18" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="SWITCH-SW2" package3d_urn="urn:adsk.eagle:package:29091878/1" value="MILADOR-SWITCH-NAME-SW2" x="30.1625" y="32.9438" smashed="yes" rot="MR0"/>
 <element name="U$19" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="MILADOR_QWIIC_SWITCH" package3d_urn="urn:adsk.eagle:package:29091844/1" value="" x="26.797" y="16.5735" smashed="yes" rot="MR0"/>
-<element name="U$20" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="MILADOR_LOGO1" package3d_urn="urn:adsk.eagle:package:28431737/1" value="MILADOR-LOGO-" x="26.3144" y="18.5166" smashed="yes" rot="MR0"/>
+<element name="U$20" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="MILADOR_LOGO1" package3d_urn="urn:adsk.eagle:package:28431737/1" value="MILADOR-LOGO-" x="26.3144" y="18.3896" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -6848,7 +6589,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="18.563053125" y1="2.7432" x2="15.591253125" y2="5.715" width="0.508" layer="1"/>
 <wire x1="28.4607" y1="11.684" x2="28.4607" y2="8.636" width="0.508" layer="16"/>
 <wire x1="28.4734" y1="8.6233" x2="28.4734" y2="5.6007" width="0.508" layer="16"/>
-<wire x1="22.01" y1="22.098" x2="18.63" y2="22.098" width="0.254" layer="1"/>
 <wire x1="7.23138125" y1="18.285459375" x2="7.23138125" y2="25.527" width="0.508" layer="16"/>
 <wire x1="7.23138125" y1="25.527" x2="7.23138125" y2="30.0736" width="0.508" layer="16"/>
 <wire x1="8.625840625" y1="25.527" x2="7.23138125" y2="25.527" width="0.508" layer="16"/>
@@ -6864,6 +6604,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="7.23138125" y1="12.446" x2="7.23138125" y2="10.0101375" width="0.508" layer="16"/>
 <wire x1="4.218940625" y1="12.458703125" x2="7.218678125" y2="12.458703125" width="0.508" layer="16"/>
 <wire x1="7.218678125" y1="12.458703125" x2="7.23138125" y2="12.446" width="0.508" layer="16"/>
+<wire x1="18.63" y1="22.098" x2="18.63" y2="21.756" width="0.508" layer="1"/>
+<wire x1="18.63" y1="21.756" x2="19.05" y2="21.336" width="0.508" layer="1"/>
+<wire x1="19.05" y1="21.336" x2="20.867" y2="21.336" width="0.508" layer="1"/>
+<wire x1="21.629" y1="22.098" x2="20.867" y2="21.336" width="0.508" layer="1"/>
+<wire x1="21.629" y1="22.098" x2="22.01" y2="22.098" width="0.508" layer="1"/>
 </signal>
 <signal name="GND">
 <polygon width="0.2032" layer="16" isolate="0.3048">
@@ -6981,8 +6726,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R2" pad="1"/>
 <contactref element="J3" pad="3"/>
 <wire x1="38.1" y1="19.555459375" x2="38.1" y2="19.55" width="0.1778" layer="1"/>
-<wire x1="5.08" y1="17.30375" x2="5.08" y2="17.28" width="0.1778" layer="1"/>
-<wire x1="41.2242" y1="29.21" x2="41.91" y2="29.21" width="0.1778" layer="16"/>
 <via x="16.764" y="17.78" extent="1-16" drill="0.381"/>
 <wire x1="41.91" y1="29.21" x2="40.0304" y2="29.21" width="0.254" layer="1"/>
 <wire x1="40.0304" y1="29.21" x2="39.2684" y2="28.448" width="0.254" layer="1"/>
@@ -7001,9 +6744,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="11.050271875" y1="17.781271875" x2="16.762728125" y2="17.781271875" width="0.254" layer="1"/>
 <wire x1="16.762728125" y1="17.781271875" x2="16.764" y2="17.78" width="0.254" layer="1"/>
 <wire x1="16.764" y1="17.78" x2="28.6258" y2="17.78" width="0.254" layer="16"/>
-<wire x1="41.91" y1="29.21" x2="40.0558" y2="29.21" width="0.254" layer="16"/>
 <wire x1="28.6258" y1="17.78" x2="40.0558" y2="29.21" width="0.254" layer="16"/>
 <wire x1="4.572" y1="22.0726" x2="4.572" y2="23.28" width="0.254" layer="1"/>
+<wire x1="40.0558" y1="29.21" x2="41.91" y2="29.21" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="14"/>
@@ -7128,6 +6871,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
