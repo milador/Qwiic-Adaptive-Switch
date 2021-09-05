@@ -1,4 +1,4 @@
-﻿Index,Quantity,Item,Value,Digikey Part Number,Manufacturer Part Number,Description,Unit Price (C),Total Price (CA),Link
+﻿Index,Quantity,Item,Value,Digikey Part Number,Manufacturer Part Number,Description,Unit Price (CAD),Total Price (CAD),Link
 1,2,"SW1,SW2",SJ1-3513,CP1-3513-ND,SJ1-3513,CONN JACK STEREO 3.5MM R/A,1.97,1.97,https://www.digikey.ca/en/products/detail/cui-devices/SJ1-3513/738683
 2,1,U1,TCA9534DWR,296-47827-1-ND,TCA9534DWR,IC I/O EXPANDER I2C 8B 16-SOIC,1.82,1.82,https://www.digikey.ca/en/products/detail/texas-instruments/TCA9534DWR/6566100
 3,2,"J1,J3",QWIIC JST,PRT-14417-ND,PRT-14417,QWIIC JST CONNECTOR - SMD 4-PIN,0.69,0.69,https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746

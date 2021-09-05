@@ -1,6 +1,6 @@
 /******************************************************************************
-  Title: Qwiic Adaptive Switch Example
-  File: Qwiic_Adaptive_Switch.ino
+  Title: Qwiic Adaptive Switch Input Example
+  File: Qwiic_Adaptive_Switch_Input.ino
   Created: July 10, 2021
   https://github.com/milador/Qwiic-Adaptive-Switch
 
@@ -21,7 +21,7 @@ bool gpioStatus[NUM_GPIO];
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("Qwiic Adaptive Switch Example");
+  Serial.println("Qwiic Adaptive Switch Input Example");
   Wire.begin();
   if (myGPIO.begin() == false) {
     Serial.println("Check Connections. No Qwiic GPIO detected.");
