@@ -21,7 +21,7 @@ Bottom View:
 </p>
 
 
-# Qwiic-Adaptive-Switch-Output
+## Qwiic-Adaptive-Switch-Output
 
 Top View: 
 <p align="center">
