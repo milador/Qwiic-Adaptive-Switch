@@ -1490,20 +1490,6 @@
 <rectangle x1="39.676071875" y1="14.60119375" x2="39.843709375" y2="14.6088125" layer="22" rot="R180"/>
 </plain>
 <libraries>
-<library name="SparkFun">
-<packages>
-<package name="STAND-OFF">
-<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.302"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
 This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
@@ -2795,37 +2781,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.48" y1="-0.74" x2="4.2" y2="-0.7" layer="21"/>
 <rectangle x1="0.48" y1="-0.78" x2="4.16" y2="-0.74" layer="21"/>
 <rectangle x1="0.48" y1="-0.82" x2="4.04" y2="-0.78" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Hardware">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="STAND-OFF">
-<description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
-&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
-&lt;h4&gt;Devices Using&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.302"/>
-<text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -6257,6 +6212,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-2.087878125" y1="1.02108125" x2="2.057403125" y2="1.05155625" layer="21"/>
 <rectangle x1="-2.026915625" y1="1.051559375" x2="1.996440625" y2="1.082040625" layer="21"/>
 </package>
+<package name="STAND-OFF-3.3" urn="urn:adsk.eagle:footprint:30775158/1" library_version="62">
+<description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.302"/>
+<text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="MILADOR_LOGO1" urn="urn:adsk.eagle:package:28431737/1" type="empty" library_version="47">
@@ -6308,6 +6277,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="SWITCH-INPUT" urn="urn:adsk.eagle:package:30678307/1" type="empty" library_version="59">
 <packageinstances>
 <packageinstance name="SWITCH-INPUT"/>
+</packageinstances>
+</package3d>
+<package3d name="STAND-OFF" urn="urn:adsk.eagle:package:30775189/1" type="box" library_version="62">
+<description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<packageinstances>
+<packageinstance name="STAND-OFF-3.3"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6710,8 +6688,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="JP3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="3.175" y="3.175" smashed="yes"/>
-<element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="40.005" y="3.175" smashed="yes"/>
+<element name="JP3" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="STAND-OFF-3.3" package3d_urn="urn:adsk.eagle:package:30775189/1" value="STAND-OFF-3.3" x="3.175" y="3.175" smashed="yes"/>
+<element name="JP4" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="STAND-OFF-3.3" package3d_urn="urn:adsk.eagle:package:30775189/1" value="STAND-OFF-3.3" x="40.005" y="3.175" smashed="yes"/>
 <element name="J1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="CONNECTORS_JST04_1MM_RA" package3d_urn="urn:adsk.eagle:package:29222212/3" value="QWIIC_RIGHT_ANGLE" x="5.08" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="1.7526" y="18.669" size="0.8128" layer="21" font="vector" ratio="15" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-13694" x="5.08" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6761,10 +6739,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LABEL_26" library="buzzard_labels (51)" package="SDA1" value="" x="41.529" y="29.21" smashed="yes" rot="MR0"/>
 <element name="LABEL_28" library="buzzard_labels (44)" package="GND4" value="" x="41.656" y="24.13" smashed="yes" rot="MR0"/>
 <element name="LABEL_27" library="buzzard_labels (44)" package="3V33" value="" x="41.529" y="26.67" smashed="yes" rot="MR0"/>
-<element name="H1" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="40.005" y="34.925" smashed="yes">
-<attribute name="VALUE" x="40.005" y="32.893" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="H2" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="3.175" y="34.925" smashed="yes"/>
+<element name="H1" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="STAND-OFF-3.3" package3d_urn="urn:adsk.eagle:package:30775189/1" value="STAND-OFF-3.3" x="40.005" y="34.925" smashed="yes"/>
+<element name="H2" library="milador" library_urn="urn:adsk.eagle:library:12595918" package="STAND-OFF-3.3" package3d_urn="urn:adsk.eagle:package:30775189/1" value="STAND-OFF-3.3" x="3.175" y="34.925" smashed="yes"/>
 <element name="R3" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" package="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="10k" x="6.11378125" y="11.4587" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.57098125" y="10.53921875" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="6.11378125" y="12.2207" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
