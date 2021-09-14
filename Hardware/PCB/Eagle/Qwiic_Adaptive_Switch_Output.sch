@@ -4096,18 +4096,18 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <attribute name="PROD_ID" value="CONN-13694"/>
 </part>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="CAP_CERAMIC-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="0.1uF"/>
+<part name="C1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="CAP_CERAMIC-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="0.1uF"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="J4" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="QWIIC_CONNECTORS" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:29222212/3" value="QWIIC_RIGHT_ANGLE">
 <attribute name="PROD_ID" value="CONN-13694"/>
 </part>
-<part name="R2" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k"/>
-<part name="R1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k"/>
+<part name="R2" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="2.2k"/>
+<part name="R1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="2.2k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="TCA9534" device="U" package3d_urn="urn:adsk.eagle:package:29222127/2" value="TCA9534"/>
-<part name="R7" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k"/>
-<part name="R8" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k"/>
-<part name="R9" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="2.2k"/>
+<part name="R7" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="2.2k"/>
+<part name="R8" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="2.2k"/>
+<part name="R9" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="2.2k"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -4115,7 +4115,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="I2C" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="JUMPERS_JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:29222217/1"/>
 <part name="H1" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="STAND-OFF-" device="3.3" package3d_urn="urn:adsk.eagle:package:30775189/1"/>
 <part name="H2" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="STAND-OFF-" device="3.3" package3d_urn="urn:adsk.eagle:package:30775189/1"/>
-<part name="R3" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="10k"/>
+<part name="R3" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="10k"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="INT" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="JUMPERS-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:29222215/1"/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -4130,7 +4130,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="PWR" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="JUMPERS-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:29222215/1"/>
-<part name="R4" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="1k"/>
+<part name="R4" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="1k"/>
 <part name="D1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="LED" device="" package3d_urn="urn:adsk.eagle:package:29222125/2" value="RED"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J2" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="CONNECTORS_CONN_01" device="PTH_NO_SILK_YES_STOP" package3d_urn="urn:adsk.eagle:package:29222250/2"/>
@@ -4151,8 +4151,8 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="K2" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="G3VM-41DY1" device="" package3d_urn="urn:adsk.eagle:package:30688509/2"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R5" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="220"/>
-<part name="R6" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0603" package3d_urn="urn:adsk.eagle:package:29222124/2" value="220"/>
+<part name="R5" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="220"/>
+<part name="R6" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="220"/>
 </parts>
 <sheets>
 <sheet>
