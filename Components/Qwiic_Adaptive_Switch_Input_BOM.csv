@@ -2,10 +2,10 @@
 1,2,"SW1,SW2",SJ1-3513,CP1-3513-ND,SJ1-3513,CONN JACK STEREO 3.5MM R/A,1.97,1.97,https://www.digikey.ca/en/products/detail/cui-devices/SJ1-3513/738683 
 2,1,U1,TCA9534DWR,296-47827-1-ND,TCA9534DWR,IC I/O EXPANDER I2C 8B 16-SOIC,1.82,1.82,https://www.digikey.ca/en/products/detail/texas-instruments/TCA9534DWR/6566100 
 3,2,"J1,J3",QWIIC JST,PRT-14417-ND,PRT-14417,QWIIC JST CONNECTOR - SMD 4-PIN,0.69,0.69,https://www.digikey.ca/en/products/detail/sparkfun-electronics/PRT-14417/7652746 
-4,5,"R1,R2,R7,R8,R9",2.2K,311-2.20KCRCT-ND ,RC0805FR-072K2L,RES 2.2K OHM 1% 1/8W 0805,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0805FR-072K2L/727676
-5,1,R3,10K,311-10.0KCRCT-ND,RC0805FR-0710KL,RES 10K OHM 1% 1/8W 0805,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0805FR-0710KL/727535
-6,1,R4,1K,311-1.00KCRCT-ND,RC0805FR-071KL,RES 1K OHM 1% 1/8W 0805,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0805FR-071KL/727444
-7,2,"R5,R6",4.7K,311-4.7KARCT-ND,RC0805JR-074K7L,RES 4.7K OHM 5% 1/8W 0805,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0805JR-074K7L/728327
+4,5,"R1,R2,R4,R5,R6",2.2K,311-2.20KCRCT-ND ,RC0805FR-072K2L,RES 2.2K OHM 1% 1/8W 0805,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0805FR-072K2L/727676
+5,1,R3,1K,311-1.00KCRCT-ND,RC0805FR-071KL,RES 1K OHM 1% 1/8W 0805,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0805FR-071KL/727444
+6,2,"R7,R8",4.7K,311-4.7KARCT-ND,RC0805JR-074K7L,RES 4.7K OHM 5% 1/8W 0805,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0805JR-074K7L/728327
+7,1,R9,10K,311-10.0KCRCT-ND,RC0805FR-0710KL,RES 10K OHM 1% 1/8W 0805,0.15,0.15,https://www.digikey.ca/en/products/detail/yageo/RC0805FR-0710KL/727535
 8,1,C1,0.1 µF,478-3755-1-ND,08053C104KAT2A,CAP CER 0.1UF 25V X7R 0805,0.14,0.14,https://www.digikey.ca/en/products/detail/avx-corporation/08053C104KAT2A/1116281
 9,1,LED (D1),Red 631nm LED ,160-1436-2-ND,LTST-C190KRKT,LED RED CLEAR CHIP SMD,0.33,0.33,https://www.digikey.ca/en/products/detail/lite-on-inc/LTST-C190KRKT/386817
 ,,,,,,,,,
