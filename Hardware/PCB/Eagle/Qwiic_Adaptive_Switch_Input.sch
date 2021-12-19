@@ -11975,8 +11975,8 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </class>
 </classes>
 <parts>
-<part name="JP3" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="STAND-OFF-" device="3.3" package3d_urn="urn:adsk.eagle:package:30775189/1"/>
-<part name="JP4" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="STAND-OFF-" device="3.3" package3d_urn="urn:adsk.eagle:package:30775189/1"/>
+<part name="H1" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="STAND-OFF-" device="3.3" package3d_urn="urn:adsk.eagle:package:30775189/1"/>
+<part name="H4" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="STAND-OFF-" device="3.3" package3d_urn="urn:adsk.eagle:package:30775189/1"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="J1" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="QWIIC_CONNECTORS" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:29222212/3" value="QWIIC_RIGHT_ANGLE">
@@ -11999,7 +11999,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="I2C" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="JUMPERS_JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:29222217/1"/>
-<part name="H1" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="STAND-OFF-" device="3.3" package3d_urn="urn:adsk.eagle:package:30775189/1"/>
+<part name="H3" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="STAND-OFF-" device="3.3" package3d_urn="urn:adsk.eagle:package:30775189/1"/>
 <part name="H2" library="milador" library_urn="urn:adsk.eagle:library:12595918" deviceset="STAND-OFF-" device="3.3" package3d_urn="urn:adsk.eagle:package:30775189/1"/>
 <part name="R9" library="milador_SMD" library_urn="urn:adsk.eagle:library:27847482" deviceset="RESISTOR-" device="0805-MP" package3d_urn="urn:adsk.eagle:package:27847629/3" value="10k"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -12144,8 +12144,8 @@ to disable the PWR LED</text>
 <text x="-73.66" y="226.06" size="2.54" layer="94" font="vector">Output</text>
 </plain>
 <instances>
-<instance part="JP3" gate="G$1" x="233.68" y="226.06" smashed="yes"/>
-<instance part="JP4" gate="G$1" x="233.68" y="213.36" smashed="yes"/>
+<instance part="H1" gate="G$1" x="233.68" y="226.06" smashed="yes"/>
+<instance part="H4" gate="G$1" x="233.68" y="213.36" smashed="yes"/>
 <instance part="SUPPLY4" gate="G$1" x="88.9" y="220.98" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="88.9" y="223.774" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
@@ -12208,7 +12208,7 @@ to disable the PWR LED</text>
 <instance part="I2C" gate="G$1" x="210.82" y="111.76" smashed="yes" rot="MR270">
 <attribute name="NAME" x="208.28" y="114.681" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="H1" gate="G$1" x="220.98" y="226.06" smashed="yes"/>
+<instance part="H3" gate="G$1" x="220.98" y="226.06" smashed="yes"/>
 <instance part="H2" gate="G$1" x="220.98" y="213.36" smashed="yes"/>
 <instance part="R9" gate="G$1" x="231.14" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.616" y="109.22" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -12296,11 +12296,11 @@ to disable the PWR LED</text>
 <attribute name="VALUE" x="73.66" y="162.814" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="73.66" y="185.928" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="114.3" y="170.18" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="119.38" y="170.434" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="111.76" y="172.72" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="116.84" y="172.974" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND5" gate="1" x="106.68" y="167.64" smashed="yes">
-<attribute name="VALUE" x="109.22" y="169.926" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND5" gate="1" x="91.44" y="157.48" smashed="yes">
+<attribute name="VALUE" x="93.98" y="159.766" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LABEL_3V_TOP" gate="G$1" x="142.24" y="198.12" smashed="yes"/>
 <instance part="LABEL_GND_TOP" gate="G$1" x="157.48" y="198.12" smashed="yes"/>
@@ -12396,14 +12396,6 @@ to disable the PWR LED</text>
 <wire x1="144.78" y1="119.38" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-<wire x1="114.3" y1="170.18" x2="114.3" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="165.1" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="167.64" x2="83.82" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="12.7" x2="167.64" y2="10.16" width="0.1524" layer="91"/>
@@ -12412,6 +12404,12 @@ to disable the PWR LED</text>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="12.7" x2="182.88" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+<wire x1="83.82" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="170.18" x2="111.76" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -12482,9 +12480,10 @@ to disable the PWR LED</text>
 <wire x1="-38.1" y1="195.58" x2="-2.54" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="83.82" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="167.64" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="167.64" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!INT" class="0">
@@ -12588,9 +12587,9 @@ to disable the PWR LED</text>
 <label x="91.44" y="139.7" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="83.82" y1="175.26" x2="91.44" y2="175.26" width="0.1524" layer="91"/>
-<label x="91.44" y="175.26" size="1.778" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="83.82" y1="172.72" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
+<label x="91.44" y="172.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -12614,9 +12613,9 @@ to disable the PWR LED</text>
 <label x="91.44" y="142.24" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="83.82" y1="172.72" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
-<label x="91.44" y="172.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="83.82" y1="175.26" x2="91.44" y2="175.26" width="0.1524" layer="91"/>
+<label x="91.44" y="175.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="P0" class="0">
