@@ -11,9 +11,10 @@
 #include <Wire.h>
 #include "SparkFun_TCA9534.h"
 
-TCA9534 myGPIO;
 
+#define IC_ADDR              0x26
 #define NUM_GPIO 4
+TCA9534 myGPIO;
 
 bool currentPinMode[NUM_GPIO] = {GPIO_OUT, GPIO_OUT, GPIO_OUT, GPIO_OUT};
 
@@ -23,7 +24,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("Qwiic Adaptive Switch Output Example");
   Wire.begin();
-  if (myGPIO.begin() == false) {
+  if (myGPIO.begin(Wire,IC_ADDR) == false) {
     Serial.println("Check Connections. No Qwiic GPIO detected.");
     while (1);
   }
