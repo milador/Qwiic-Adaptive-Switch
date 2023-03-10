@@ -1,6 +1,6 @@
 # Qwiic-Adaptive-Switch
 
-Qwiic-Adaptive-Switch modules provide an easy way to create your own adaptive switch input or output boxes through Qwiic or STEMMA QT ecosystem. Qwiic Adaptive Switch modulea can be connected to any Qwiic enabled board to create an adaptive switch box.
+Qwiic-Adaptive-Switch modules provide an easy way to create your own adaptive switch input or output boxes through Qwiic or STEMMA QT ecosystem. Qwiic Adaptive Switch modules can be connected to any Qwiic enabled board to create an adaptive switch box.
 
 You can find more information about <a href="https://www.sparkfun.com/qwiic">Qwiic Connect System</a> at SparkFun official website.
 
