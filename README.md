@@ -37,7 +37,7 @@ Bottom View:
 
 ## Risk Assessment
 
-The Risk Assessment documents are located under [documents](./documents/) directory. 
+The Risk Assessment documents are located under [Documents](./Documents/) directory. 
 
 ## License
 
